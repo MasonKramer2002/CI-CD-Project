@@ -16,7 +16,8 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	//"postCreateCommand": "sudo chmod -R a+w /flutter",
+	//"postCreateCommand": "sudo chmod a+rwx -R /flutter",
+	"postCreateCommand": "sudo chown -Rv vscode /flutter",
 
 	// Configure tool-specific properties.
 	"customizations": {
