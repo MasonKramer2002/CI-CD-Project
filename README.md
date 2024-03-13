@@ -1,6 +1,9 @@
 # Flutter Web DevContainer using Docker Desktop for VSCode
 This project aims to provide a development environment for Flutter Web applications using Docker Desktop and Visual Studio Code's DevContainer feature
 
+## DevContainer Environment
+Click here for more information about the [DevContainer](docs/DevContainer.md)
+
 ## Requirements
 [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 
