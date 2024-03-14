@@ -9,7 +9,7 @@ DevContainer are a self-contained environment that contains all the necessary to
 ## Configuration
 ![DockerFlutterImage](/docs/images/DockerFlutterLogo.jpg)
 
-For this configuration we will be configuring with vscode
+For this configuration we will be configuring with vscode and using ubuntu as the base image for the docker container.
 
 ### **Clone the Repository:** 
 Click ***Clone Git Repository*** on the welcome page as shown below
