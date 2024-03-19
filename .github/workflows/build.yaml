@@ -33,7 +33,9 @@ jobs:
         #Run Flutter Test
       - name: Run Tests
         run: flutter test
+        working-directory: ./app
       
         #Build Web App
       - name: Build Application
-        run: flutter build web  
+        run: flutter build web
+        working-directory: ./app
