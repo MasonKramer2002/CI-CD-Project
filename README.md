@@ -3,3 +3,6 @@ This project aims to utilize source code version control tools to enhance collab
 
 ## DevContainer Environment
 Click here for more information about the [DevContainer](docs/DevContainer.md)
+
+## Version Control
+
