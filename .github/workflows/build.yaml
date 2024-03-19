@@ -28,7 +28,7 @@ jobs:
         #Install Dependencies
       - name: Install Dependencies
         run: flutter pub get
-        working-directory: /workspaces/CI-CD-Project/app
+        working-directory: ./workspaces/CI-CD-Project/app
       
         #Run Flutter Test
       - name: Run Tests
