@@ -3,7 +3,7 @@ name: Flutter Build Workflow
 on:
   push:
     branches:
-      - main  # Adjust to your main branch name
+      - main  
 
 jobs:
   build:
@@ -16,7 +16,7 @@ jobs:
       - name: Set up Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.13.0'  # Adjust to your desired Flutter version
+          flutter-version: '3.13.0'  
           channel: 'stable'
 
       - name: Install Dependencies
@@ -26,4 +26,4 @@ jobs:
         run: flutter test
       
       - name: Build Application
-        run: flutter build web  # Adjust to your desired build command
+        run: flutter build web  
